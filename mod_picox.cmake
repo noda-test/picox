@@ -10,6 +10,7 @@ set(sds_dir         "${external_dir}/sds")
 set(uthash_dir      "${external_dir}/uthash")
 set(minIni_dir      "${external_dir}/minIni")
 set(libfixmath_dir  "${external_dir}/libfixmath")
+set(config-dir      "${external_dir}/config")
 
 include_directories(${root_dir})
 include_directories(${unity_dir})
@@ -18,6 +19,7 @@ include_directories(${spiffs_dir})
 include_directories(${sds_dir})
 include_directories(${minIni_dir})
 include_directories(${libfixmath_dir})
+include_directories(${config-dir})
 
 set(picox_sources
     ${picox_dir}/core/detail/xdebug.c
